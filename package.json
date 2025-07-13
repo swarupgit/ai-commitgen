@@ -52,10 +52,15 @@
       "type": "object",
       "title": "AI CommitGen Configuration",
       "properties": {
-        "aiCommitgen.openaiApiKey": {
+        "aiCommitgen.openrouterApiKey": {
           "type": "string",
           "default": "",
           "description": "Your OpenAI API Key (starts with sk-...)"
+        },
+        "aiCommitgen.model": {
+          "type": "string",
+          "default": "",
+          "description": "Your model"
         }
       }
     }

@@ -3,6 +3,7 @@
 Generate meaningful Git commit messages using AI (OpenAI GPT-3.5) based on your staged changes — right inside VS Code.
 
 ---
+code --install-extension ai-commitgen-0.0.1.vsix
 
 ## ✨ Features
 
