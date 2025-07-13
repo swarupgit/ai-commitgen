@@ -53,7 +53,8 @@ Or manually add this in `settings.json`:
 "aiCommitgen.openrouterApiKey": "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 "aiCommitgen.model": "meta-llama/llama-3-8b-instruct"
 
+---
 
 ## Download from here
 
-https://drive.google.com/file/d/1EFd7udQViGeTVPIppl8DHGpj7Z1iCzcD/view?usp=sharing
+https://drive.google.com/file/d/1RUT9Pi2p-ZIlxk7iZaoJbzBpfrs7ZOnH/view?usp=sharing
