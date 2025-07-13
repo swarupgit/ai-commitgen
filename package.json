@@ -16,6 +16,14 @@
   "activationEvents": [
     "onCommand:ai-commitgen.generateMessage"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swarupgit/ai-commitgen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swarupgit/ai-commitgen/issues"
+  },
+  "homepage": "https://github.com/swarupgit/ai-commitgen#readme",
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
