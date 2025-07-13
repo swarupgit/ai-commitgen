@@ -57,4 +57,4 @@ Or manually add this in `settings.json`:
 
 ## Download from here
 
-https://drive.google.com/file/d/1RUT9Pi2p-ZIlxk7iZaoJbzBpfrs7ZOnH/view?usp=sharing
+https://drive.google.com/drive/folders/1CDUa5_KreFxJKhKJoExW5RWJvfZ8zhDH?usp=sharing
