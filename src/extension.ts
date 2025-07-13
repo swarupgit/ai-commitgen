@@ -23,13 +23,14 @@ export function activate(context: vscode.ExtensionContext) {
             }
 
             const message = await generateCommitMessage(diff);
-            console.log("Generated message:", message);
+            const commitMessage = message.includes(":") ? message.split(":")?.[1] : message;
+            console.log("Generated message:", commitMessage);
             vscode.window.showInformationMessage(
-              "AI Commit Message: " + message
+              "AI Commit Message: " + commitMessage
             );
 
             // Copy to clipboard or pre-fill Git input
-            await vscode.env.clipboard.writeText(message);
+            await vscode.env.clipboard.writeText(commitMessage);
             vscode.window.showInformationMessage(
               "Commit message copied to clipboard."
             );
