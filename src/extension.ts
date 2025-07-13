@@ -23,7 +23,7 @@ export function activate(context: vscode.ExtensionContext) {
             }
 
             const message = await generateCommitMessage(diff);
-            const commitMessage = message.includes(":") ? message.split(":")?.[1] : message;
+            const commitMessage = message.includes(":") && message.split(":")?.[1]  ? message.split(":")?.[1] : message;
             console.log("Generated message:", commitMessage);
             vscode.window.showInformationMessage(
               "AI Commit Message: " + commitMessage
